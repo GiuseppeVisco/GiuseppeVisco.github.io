@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!--Google Fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,100&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap Scripts -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <!-- CSS Stylesheets -->
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+
+    <!-- Font Awesome Scripts -->
+
+    <script src="https://kit.fontawesome.com/cc2d11f861.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <!-- NavBar-->
+
+    <section class="front-page">
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+
+                <i class="nav-icon fas fa-code fa-2x"></i>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="ulNav nav navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#bio">Bio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#contact">Contattami</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!--Home-->
+
+        <h2 class="name">Giuseppe Visco</h2>
+        <div class="introduction">
+            <h3>Costruendo la nuova generazione di applicazioni web per una migliore esperienza utente e prestazioni mai
+                viste</h3>
+        </div>
+
+
+
+    </section>
+
+
+    <!--Bio Section-->
+
+    <section class="bio" id="bio">
+
+        <div class="bio-container container-fluid">
+            <div class="bio-row row">
+                <div class="bio-column col-lg-6"><img class="random-img" src="assets/img/random.png" alt=""></div>
+                <div class="bio-column col-lg-6">
+                    <p class="bio-paragraph">Laureando in informatica, studente di sviluppo web presso Start2Impact con
+                        una grande passione per tutto quello che concerne la programmazione e il design.</p>
+                </div>
+            </div>
+
+            <div class="icon-row row">
+                <div class="icon-column col-6 col-md-3"><i class="fab fa-html5 fa-5x" id="html-icon"></i>
+                    <p class="hide">Html</p>
+                </div>
+                <div class="icon-column col-6 col-md-3"><i class="fab fa-css3-alt fa-5x" id="css-icon"></i>
+                    <p class="hide">Css</p>
+                </div>
+                <div class="icon-column col-6 col-md-3"><i class="fab fa-bootstrap fa-5x" id="bootstrap-icon"></i>
+                    <p class="hide">Bootstrap</p>
+                </div>
+                <div class="icon-column col-6 col-md-3"><i class="fab fa-js-square fa-5x" id="js-icon"></i>
+                    <p class="hide">JavaScript</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--Contact Section-->
+
+
+    <section class="contact-form" id="contact">
+
+        <form action="mailto: visco.giuseppe93@gmail.com">
+            <div class="container-fluid form-container">
+                <div class="row justify-content-center">
+                    <div class="col-4">
+                        <input type="text" class="form-control form-element" placeholder="Oggetto" aria-label="Oggetto">
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <textarea class="form-control form-element" cols="10" rows="10"></textarea>
+                    </div>
+                </div>
+
+
+                <button type="submit" class="btn btn-dark form-element">Contattami</button>
+            </div>
+        </form>
+
+    </section>
+
+    <!--Footer-->
+
+    <footer class="profile-links">
+        <div class="container-fluid">
+            <a href="https://www.facebook.com/giuseppe.visco/"><i class="social-icon fab fa-facebook-f fa-lg"></i></a>
+            <a href="https://www.instagram.com/peppevisco/"><i class="social-icon fab fa-instagram fa-lg"></i></a>
+            <a href="https://twitter.com/visco_giuseppe"><i class="social-icon fab fa-twitter fa-lg"></i></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

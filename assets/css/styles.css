@@ -1,0 +1,155 @@
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    height: 100%;
+}
+
+/*----------------------- NavBar -----------------------*/
+
+.navbar {
+    font-weight: 100;
+    font-size: 1.5rem;
+    pad: 1.5%;
+}
+
+.nav-icon {
+    color: rgb(245, 241, 12);
+    padding: 1%;
+}
+/*----------------------- Home -----------------------*/
+
+.front-page {
+    background-image: url("/assets/img/main-background.jfif");
+    background-size: cover;
+    height: 100vh;
+}
+
+.name {
+    margin-top: 15%;
+    color: rgb(245, 241, 12);
+    font-size: 3.5rem;
+}
+
+.introduction {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    margin: 10px 40px 10px 40px;
+}
+
+
+/*----------------------- Bio -----------------------*/
+
+.bio-container {
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(201, 215, 215, 1) 100%);
+}
+
+
+.random-img {
+    transform: scale(1.3);
+}
+
+.bio-paragraph {
+    color: #fff;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.bio-column {
+    padding: 7% 15%;
+}
+
+/*----------------------- Icon Styling -----------------------*/
+
+.hide {
+    display: none;
+}
+
+#html-icon {
+    color: orangered;
+}
+
+#css-icon {
+    color: blue;
+}
+
+#bootstrap-icon {
+    color: blueviolet;
+}
+
+#js-icon {
+    color: rgba(242, 246, 0, 0.952);
+}
+
+.icon-column {
+    margin-bottom: 30px
+}
+
+@media screen and (min-width: 768px) {
+    .icon-row {
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    #html-icon:hover+.hide {
+        display: block;
+        color: rgb(245, 241, 12);
+        font-style: italic;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+    #css-icon:hover+.hide {
+        display: block;
+        color: rgb(245, 241, 12);
+        font-style: italic;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+    #bootstrap-icon:hover+.hide {
+        display: block;
+        color: rgb(245, 241, 12);
+        font-style: italic;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+    #js-icon:hover+.hide {
+        display: block;
+        color: rgb(245, 241, 12);
+        font-style: italic;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+}
+
+/*----------------------- Contact Form Styling-----------------------*/
+
+.contact-form {
+    background-color: whitesmoke;
+}
+
+.form-element {
+    margin: 20px 0;
+    border: 2px solid black;
+}
+
+footer {
+    background-color: black;
+}
+
+/*----------------------- Icon Profile Styling-----------------------*/
+
+
+.social-icon {
+    padding: 20px;
+    color: #fff;
+}
