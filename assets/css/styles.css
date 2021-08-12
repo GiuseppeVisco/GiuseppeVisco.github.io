@@ -142,8 +142,12 @@ footer {
         height: 100%;
     }
 
+    .bio-div{
+        padding:10%;
+    }
+
     .random-img {
-        transform: scale(0.5);
+        transform: scale(0.8);
     }
 }
 
@@ -157,33 +161,37 @@ footer {
 @media screen and (min-width: 996px) {
     #html-icon:hover+.hide {
         display: block;
-        color: rgb(245, 241, 12);
+        color: rgb(204, 207, 20);
         font-style: italic;
         font-weight: bold;
         margin-top: 15px;
+        font-size: 1.2rem;
     }
 
     #css-icon:hover+.hide {
         display: block;
-        color: rgb(245, 241, 12);
+        color: rgb(204, 207, 20);
         font-style: italic;
         font-weight: bold;
         margin-top: 15px;
+        font-size: 1.2rem;
     }
 
     #bootstrap-icon:hover+.hide {
         display: block;
-        color: rgb(245, 241, 12);
+        color: rgb(204, 207, 20);
         font-style: italic;
         font-weight: bold;
         margin-top: 15px;
+        font-size: 1.2rem;
     }
 
     #js-icon:hover+.hide {
         display: block;
-        color: rgb(245, 241, 12);
+        color: rgb(204, 207, 20);
         font-style: italic;
         font-weight: bold;
         margin-top: 15px;
+        font-size: 1.2rem;
     }
 }
