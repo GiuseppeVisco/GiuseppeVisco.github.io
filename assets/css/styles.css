@@ -176,10 +176,10 @@ footer {
         padding: 0;
     }
 
-    .front-page {
-        height: 100vh;
+    .introduction{
+        margin-top: 100px;
     }
-
+    
     .bio-container {
         height: 100%;
     }
