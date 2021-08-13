@@ -110,33 +110,17 @@
 
     </section>
 
-
     <!--Contact Section-->
 
-
     <section class="contact-form" id="contact">
-        <div>
-            <form action="mailto: visco.giuseppe93@gmail.com">
-                <div class="container-fluid form-container">
-                    <div class="row justify-content-center">
-                        <div class="col-4">
-                            <input type="text" class="form-control form-element" placeholder="Oggetto"
-                                aria-label="Oggetto">
-                        </div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="col-md-6">
-                            <textarea class="form-control form-element" cols="10" rows="10"></textarea>
-                        </div>
-                    </div>
-
-
-                    <button type="submit" class="btn btn-dark form-element">Contattami</button>
-                </div>
-            </form>
-        </div>
+        <form action="mailto:visco.giuseppe93@gmail.com" method="POST" enctype="text/plain" name="EmailForm">Nome:<br>
+            <input class="mail-info" type="text" size="19" name="Contact-Name"><br><br>Email:<br>
+            <input class="mail-info" type="email" name="Contact-Email"><br><br>Messaggio:<br>
+            <textarea class="mail-text" name="Contact-Message" rows="6″ cols=" 20″></textarea><br><br>
+            <button class="mail-button" type="submit" value="Submit">Send</button>
+        </form>
     </section>
-
+    
     <!-- Footer -->
 
     <footer class="profile-links">
