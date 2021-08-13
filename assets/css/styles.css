@@ -177,7 +177,7 @@ footer {
     }
 
     .front-page {
-        height: 90%;
+        height: 100vh;
     }
 
     .bio-container {
