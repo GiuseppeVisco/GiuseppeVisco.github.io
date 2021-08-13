@@ -32,11 +32,11 @@ body {
     font-size: 3.5rem;
 }
 
-.introduction{
+.home{
     margin:0 10px;
 }
 
-.introductive-bio {
+.home-introduction {
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
@@ -159,7 +159,7 @@ footer {
 
 @media screen and (max-width:996px) {
 
-    .introduction{
+    .home{
         padding:10%;
     }
 
@@ -168,7 +168,7 @@ footer {
         margin-top:5%;
     }
 
-    .introductive-bio {
+    .home-introduction {
         font-size: 1rem;
     }
 
@@ -176,7 +176,7 @@ footer {
         padding: 0;
     }
 
-    .introduction{
+    .home{
         margin-top: 100px;
     }
 
