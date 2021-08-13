@@ -32,12 +32,17 @@ body {
     font-size: 3.5rem;
 }
 
+.introduction{
+    margin:0 10px;
+}
+
 .introductive-bio {
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
     font-style: italic;
 }
+
 
 /*----------------------- Bio -----------------------*/
 
@@ -238,4 +243,3 @@ footer {
         width: 180px;
     }
 }
-
